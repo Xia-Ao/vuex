@@ -536,6 +536,7 @@ function unifyObjectStyle (type, payload, options) {
   return { type, payload, options }
 }
 
+// 安装vuex
 export function install (_Vue) {
   if (Vue && _Vue === Vue) {
     if (__DEV__) {
